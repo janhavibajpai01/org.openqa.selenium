@@ -36,7 +36,6 @@ public class SeleniumSQLInjection {
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            // Close the browser
             driver.quit();
         }
     }
